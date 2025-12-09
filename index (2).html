@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>mikasa</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -12,14 +15,13 @@
             <div class="top-header">
                 <img src="./Mikasa Task Screenshots/logo.png" alt="mikasa-icon">
                 <ul>
-                        <li>Welcome Jeffery (Sign Out) </li>
-                        <li>My Account</li>
-                        <li class="cart-nav"><img src="./Mikasa Task Screenshots/icon_cart.png" alt="icon-cart-image">&nbsp; 999 Items - $9999.99 Checkout</li>
+                        <li class="line">Welcome Jeffery (Sign Out)</li><div></div>
+                        <li class="line">My Account</li><div></div>
+                        <li class="cart-nav line"><img src="./Mikasa Task Screenshots/icon_cart.png" alt="icon-cart-image">&nbsp; 999 Items - $9999.99 Checkout</li><div></div>
                         <li>Customer Service</li>
                 </ul>
             </div>
         </header>
-
         <!-- navbar -->
         <div class="mid-header">
             <nav>
@@ -27,7 +29,7 @@
                     <a class="tab" href="#">Dining</a>
                     <a class="tab" href="#">Crystal</a>
                     <a class="tab" href="#">By Brand</a>
-                    <a class="tab" href="#">What’s New</a>
+                    <a class="tab" href="#">What's New</a>
                     <a class="tab" href="#">Find a Gift</a>
                     <a class="tab" href="#">Wedding Ideas</a>
                     <a class="tab" href="#">Clearance &amp; Special Offers</a>
@@ -36,12 +38,11 @@
                 <div class="nav-part-two">
                     <form class="search">
                         <input type="text" placeholder="Search Keyword/Item #" />
-                        <button type="submit">GO</button>
+                        <button id="go" type="submit">GO</button>
                     </form>
                 </div>
             </nav>
         </div>
-
         <div class="bottom-header">
             <div class="bottom-header-details">
 
@@ -55,9 +56,8 @@
 
                 <div class="right">
                     <img src="./Mikasa Task Screenshots/bridelRegistry.jpg" alt="Bridal Registry Icon">
-                    <a style="font-size: 1.2rem;" href="#">Bridal Registry</a>
+                    <a style="font-size: 1.1rem;" href="#">Bridal Registry</a>
                 </div>
-
             </div>
         </div>
 
@@ -67,10 +67,10 @@
                     <img src="./Mikasa Task Screenshots/Recipe.jpg" alt="Recipe Icon">
                     <aside class="sidebar">
                         <div class="sidebar-container">
-                            <h4>Dress your table</h4>
-                            <p>Create a fabulous new look for <br>your next event. Choose from <br> various styles and ideas.</p>
+                            <p class="p">Dress your table</p>
+                            <p class="p1">Create a fabulous new look for <br>your next event. Choose from <br> various styles and ideas.</p>
                             <ul>
-                                <li><a href="#">Contemporary</a></li>
+                                <li ><a  href="#">Contemporary</a></li>
                                 <li><a href="#">Traditional</a></li>
                                 <li><a href="#">Brunch</a></li>
                                 <li><a href="#">Themes</a></li>
@@ -82,23 +82,22 @@
                     </aside>
                 </div>
 
-                <div class="hero-section-bottom">
+                <div class="bottom-section">
 
-                    <div class="col" id="col-1">
+                    <div class="col" id="c1">
                         <h3>You'll love our fine stemware collection</h3>
                         <p>Duls autem vel eum iriure dolor in hendrerit vulputate.</p>
                         <img src="./Mikasa Task Screenshots/promo_glass.png" alt="promo-glasses">
                         <a href="#">See all stemware</a>
                     </div>
 
-                    <div class="col" id="col-2">
+                    <div class="col" id="c2">
                         <h3>Home accent for the holidays</h3>
                         <p>Lorem ipsum dolor in amet, consectetuer adipiscing elit.</p>
                         <img src="./Mikasa Task Screenshots/promo_plates.png" alt="promo_plates">
                         <a href="#">See all home accents</a>
                     </div>
-
-                    <div class="col" id="col-3">
+                    <div class="col" id="c3">
                         <h3>
                             Mikasa clearance <br>
                             sale 20% to 80% off
@@ -117,9 +116,9 @@
                 <div class="footer-left">
                     <div class="row">
                         <a href="#">About Mikasa</a>
-                        <span class="sep">|</span>
+                        <span class="footer-span"></span>
                         <a href="#">Customer Service</a>
-                        <span class="sep">|</span>
+                        <span class="footer-span"></span>
                         <a href="#">Privacy Policy</a>
                     </div>
 
@@ -136,7 +135,7 @@
                 <div class="footer-right">
                     <p>Sign up to receive special offers &amp; promotions from Mikasa.</p>
                     <form >
-                        <input type="email" placeholder="Enter your email address" aria-label="Email address" />
+                        <input type="email" placeholder="Enter your email address"/>
                         <button type="submit">SIGN UP</button>
                     </form>
                 </div>
